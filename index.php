@@ -57,10 +57,10 @@
         ctx.strokeStyle = '#f5c800';
 
         // Desenează cercul în interiorul dreptunghiului (oval)
-        const ovalCenterX = canvas.width / 2 - 120; // Mutăm centrul cercului la stânga
+        const ovalCenterX = canvas.width / 2 - 120; 
         const ovalCenterY = canvas.height / 4.2;
-        const ovalRadiusX = 150; // Ajustăm raza orizontală pentru a face ovalul
-        const ovalRadiusY = 100; // Ajustăm raza verticală pentru a face ovalul
+        const ovalRadiusX = 150; 
+        const ovalRadiusY = 100; 
         ctx.beginPath();
         ctx.ellipse(ovalCenterX, ovalCenterY, ovalRadiusX, ovalRadiusY, 0, 0, 2 * Math.PI);
         ctx.stroke();
